@@ -1,0 +1,40 @@
+body {
+    background-color: ;
+    border-style: outset;
+   font-family: "Lato", sans-serif;
+    
+}
+
+
+
+#header {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.p1 {
+    text-indent: 50px;
+}
+#section {
+       
+   margin: 100px;
+   border: 1px solid black;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    text-align: justify;    
+}
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
