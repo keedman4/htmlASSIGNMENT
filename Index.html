@@ -231,7 +231,7 @@
                 <fieldset>                
                     <legend>Personal Information</legend>    
                     <label for="fName">FirstName:</label>
-                <input type="text" name="firstname" pattern=".{4,}" required title="A minimum of 4 characters" placeholder="FirstName"><br>
+                <input type="text" name="firstname" pattern=".{4,}" minlength="4" required title="A minimum of 4 characters" placeholder="FirstName"><br>
                     <label for="lName">LastName:</label>
                 <input type="text" name="lastname" pattern=".{4,}" required title="A minimum of 4 characters" placeholder="LastName"><br>
                     <label for="Email">Email:</label>
@@ -239,7 +239,7 @@
                     <label for="Title">Title:</label>
                 <input type="text" name="title" required placeholder="Title"><br>
                     <label for="Message">Message:</label>
-                <textarea rows="10" cols="30" pattern=".{20,50}" name="message" required title="A minimum of twenty(20) characters" placeholder="Message..."></textarea><br>
+                <textarea rows="10" cols="30" pattern=".{20,50}" minlength="20" name="message" required title="A minimum of twenty(20) characters" placeholder="Message..."></textarea><br>
                 <button>Submit</button>
                 </fieldset>
     
