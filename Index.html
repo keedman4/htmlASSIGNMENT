@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        
+        
         <meta charset="UTF-8" http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
         
         <meta charset="utf-8">
 
-        <link rel="stylesheet" type="text/css" href="GeraldNduaguba.css">
+        <link rel="stylesheet" type="text/css" href="Gerald Nduaguba.css">
         <title>My Cv in html</title>
     </head>
     
@@ -26,7 +28,7 @@
         </nav>
 
         
-        <div id="section">
+        <div class="section">
             
             <article>                
                 <h2>OBJECTIVE</h2>
@@ -225,19 +227,19 @@
             
         <div id="Contact">
             <h2>Contact Me<hr></h2>
-            <form>
+            <form action="Contact.php" method="post">
                 <fieldset>                
                     <legend>Personal Information</legend>    
                     <label for="fName">FirstName:</label>
-                <input type="text" name="firstname" pattern=".{4,}" required title="A minimum of 4 characters" placeholder="FirstName"><br>
+                <input type="text" name="firstname" pattern=".{4,}" minlength="4" required title="A minimum of 4 characters" placeholder="FirstName"><br>
                     <label for="lName">LastName:</label>
-                <input type="text" name="firstname" pattern=".{4,}" required title="A minimum of 4 characters" placeholder="LastName"><br>
+                <input type="text" name="lastname" pattern=".{4,}" required title="A minimum of 4 characters" placeholder="LastName"><br>
                     <label for="Email">Email:</label>
                  <input type="email" name="email" required placeholder="Email"><br>
                     <label for="Title">Title:</label>
                 <input type="text" name="title" required placeholder="Title"><br>
                     <label for="Message">Message:</label>
-                <textarea rows="10" cols="30" pattern=".{20,50}" required title="A minimum of twenty(20) characters" placeholder="Message..."></textarea><br>
+                <textarea rows="10" cols="30" name="message" pattern=".{20,50}" minlength="20" required title="A minimum of twenty(20) characters" placeholder="Message..."></textarea><br>
                 <button>Submit</button>
                 </fieldset>
     
@@ -253,5 +255,5 @@
             shn01752
         </div>
      
-	</body>
+    </body>
 </html>
