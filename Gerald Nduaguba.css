@@ -40,6 +40,16 @@ nav ul li {
     text-indent: 50px;
 }
 
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+   .section {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
  article
 {
     border:1px solid grey; 
@@ -48,16 +58,16 @@ nav ul li {
     background-color: white;
 }
 
-#section {
+.section {
        
-   margin: 100px;
-   border: 1px solid black;
-  padding-top: 50px;
-    padding-right: 100px;
+    margin: 100px;
+    border: 1px solid black;    
+    padding-top: 50px;
+    padding-right: 150px;
     padding-bottom: 50px;
     padding-left: 150px;
     text-align: justify;    
-             background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 #Contact {
